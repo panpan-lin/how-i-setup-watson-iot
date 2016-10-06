@@ -4,7 +4,7 @@
 2. go to Catalogue page, choose to create Watson IoT platform instance.
 3. go to the URL of my instance, follow instructions to set up Node-RED password.
 4. go back to main dashboard, under services, select the iot platform, under connect your devices, chose Launch Dashboard, choose Devices in menu, click Add Device button. Create device type (for I have no device there yet), click through the rest till add device, type in device ID 
-5. Configure your Andoird phone to send MQTT messages. The easy way is to install: https://ibm.box.com/v/iotstarterapp (might need to change settings > security first )
+5. Configure your Andoird phone to send MQTT messages. The easy way is to install: https://ibm.box.com/v/iotstarterapp (might need to change settings > security first ). *Beware that you need to create a device type called Android (case sensitive) and register your device under this category!*
 
 
 ## Useful Links
