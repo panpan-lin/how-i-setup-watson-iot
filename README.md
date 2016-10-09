@@ -28,12 +28,12 @@ Untill you reach the point to connect to IoTF Platform. Have a look at this docu
 https://console.ng.bluemix.net/docs/services/IoT/iotplatform_task.html#iotplatform_task
 
 Here are the configurations I use:
-Username: `use-token-auth`
-Password: `<device's authentication token>`
-Device ID: `d:<6-character org id>:<device type>:<device id>`
-Broker Address: `tcp://<6-character org id>.messaging.internetofthings.ibmcloud.com`
-Port: `1883`
-Event topic format: `iot-2/evt/status/fmt/json`
+* Username: `use-token-auth`
+* Password: `<device's authentication token>`
+* Device ID: `d:<6-character org id>:<device type>:<device id>`
+* Broker Address: `tcp://<6-character org id>.messaging.internetofthings.ibmcloud.com`
+* Port: `1883`
+* Event topic format: `iot-2/evt/status/fmt/json`
 
 -----
 
