@@ -1,5 +1,7 @@
 # Notes for myself on how I set up Watson IOT on bluemix for Galway Hackathon
 
+## Mobile
+
 Actually, you just need to follow this, that's pretty much it:
 https://www.ibm.com/developerworks/library/iot-mobile-phone-iot-device-bluemix-apps-trs/
 and perhaps this one too (for the node-red thing):
@@ -16,6 +18,22 @@ https://console.ng.bluemix.net/docs/starters/IoT/iot500.html#iot500
   
 
 Download the Bluemix Command Line Interface and Cloud Foundary Command Line Interface. (https://console.ng.bluemix.net/docs/starters/install_cli.html)
+
+-----
+
+## TI SimpleLink SensorTag
+Following this recipe: https://developer.ibm.com/recipes/tutorials/connect-a-cc2650-sensortag-to-the-iot-foundations-quickstart/
+
+Untill you reach the point to connect to IoTF Platform. Have a look at this documentation:
+https://console.ng.bluemix.net/docs/services/IoT/iotplatform_task.html#iotplatform_task
+
+Here are the configurations I use:
+Username: `use-token-auth`
+Password: `<device's authentication token>`
+Device ID: `d:<6-character org id>:<device type>:<device id>`
+Broker Address: `tcp://<6-character org id>.messaging.internetofthings.ibmcloud.com`
+Port: `1883`
+Event topic format: `iot-2/evt/status/fmt/json`
 
 -----
 
@@ -56,6 +74,9 @@ https://developer.ibm.com/recipes/tutorials/raspberry-pi-4/
 
 ### Recipe for connecting Intel Galileo to Watson IoT:
 https://developer.ibm.com/recipes/tutorials/connect-an-intel-galileo-to-the-internet-of-things-foundation-connect/
+
+### Recipe for connecting TI SimpleLink SensorTag with CC2650 wireless MCU
+https://developer.ibm.com/recipes/tutorials/connect-a-cc2650-sensortag-to-the-iot-foundations-quickstart/
 
 ### Collection of step-by-step Recipes related to IoT
 https://developer.ibm.com/recipes/?post_type=tutorials&s=IoT
